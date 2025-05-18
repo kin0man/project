@@ -90,8 +90,8 @@ void help(void) {
 
 // Основная вычислительная задача
 void main_task(int show_roots, int show_iters){
-    const double eps_root = 1e-4;
-    const double eps_integral = 5e-4;
+    const double eps_root = 1e-5;
+    const double eps_integral = 1e-4;
 
     double a1 = -2.0, b1 = -1.0;     // f1 и f3
     double a2 = 0.0, b2 = 1.5;     // f2 и f3
